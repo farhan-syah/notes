@@ -49,7 +49,7 @@ By default, when you launch terminal in Windows, it will either use CMD.exe or P
 3. In the default profile, select your Linux OS (In my case, Debian)
 4. Done. Now, whenever you open up the Windows Terminal, it will run in WSL.
 
-![Screenshot 2024-08-22 173959](https://gist.github.com/user-attachments/assets/d0903340-431c-4d9e-85a7-2c49daed5b83)
+![image](https://github.com/user-attachments/assets/687ccfdb-1068-45f9-a0ea-0c817161442f)
 
 ### 4. Setting Shortcut Key To Open Terminal (Ctrl + Alt + T) (Recommended)
 
@@ -64,7 +64,7 @@ However, you can enable it, by following this steps:
 
 Now, you can easily open up the terminal by pressing the (Ctrl + Alt + T) shortcut. Cool isn't it.
 
-![Screenshot 2024-08-22 175150](https://gist.github.com/user-attachments/assets/f4e2012b-2511-40b1-881e-e8236df922d2)
+![image](https://github.com/user-attachments/assets/ae3dd144-37fe-460c-80b6-76b79b095ebe)
 
 ### 5. Configure the Shell to Use Zsh Instead of Bash (Optional)
 
@@ -116,7 +116,7 @@ Next, if you want, you can set up the default terminal in VS Code to WSL.
 
 Now every time you open up the terminal in VS Code, it will open up WSL Terminal Profile. 
 
-![Screenshot 2024-08-22 181136](https://gist.github.com/user-attachments/assets/4ba321a0-9b3d-43a5-b0d7-5664613d872f)
+![image](https://github.com/user-attachments/assets/1947a5d2-bb8a-444f-9283-0295bed3f707)
 
 ### 8. Install Git
 
@@ -132,8 +132,9 @@ Command to install git (in WSL Terminal):
 sudo apt install git
 ```
 Check if git is setup properly
-
-![Screenshot 2024-08-22 182411](https://gist.github.com/user-attachments/assets/c70557d4-2fad-44dd-8662-d76d79236eb4)
+```bash
+which git
+```
 
 Change git config to use `main` as the default branch instead of `master`
 

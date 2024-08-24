@@ -9,6 +9,7 @@ If you prefer video tutorial instead, you can watch it here:
 - Optimize Windows
 - Install WSL
 - Setting up WSL as default terminal
+- Open up terminal by Ctrl+Alt+T shortcut
 - Install zsh
 - Install git
 
